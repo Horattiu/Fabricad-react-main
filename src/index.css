@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  font-family: "Poppins";
+  color: #333;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  letter-spacing: -0.5px;
+}

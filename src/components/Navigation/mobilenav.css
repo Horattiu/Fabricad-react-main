@@ -1,0 +1,52 @@
+.navbar-mobile {
+  /* display: flex; */
+  display: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  align-items: center;
+}
+
+.navbar-mobile .links-mobile {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  z-index: 999;
+  height: 100vh;
+  font-weight: 400;
+}
+
+.navbar-mobile a {
+  text-decoration: none;
+}
+
+.links-mobile a {
+  text-decoration: none;
+}
+
+.links-mobile .cart-icon {
+  font-size: 2rem;
+}
+
+.cart-icon {
+  /* font-size: 1.4rem; */
+  margin-top: 0.2rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.hamburger path {
+  fill: #f1356d;
+}
+
+.cart-icon path:hover {
+  color: #f1356d;
+}
+
+.links-mobile a:hover {
+  color: rgba(239, 11, 66, 255);
+}
+
+
+.links-mobile div:hover {
+  color: #f1356d;
+}
